@@ -6,8 +6,8 @@ import { AnimatePresence } from 'framer-motion';
 import Nav from './nav';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Rounded from '../../common/RoundedButton/Index';
-import Magnetic from '../../common/Magnetic/Index';
+import Rounded from '../../common/RoundedButton/index.jsx';
+import Magnetic from 'src\common\Magnetic\index.jsx';
 import Clock from 'react-live-clock';
 
 export default function Index() {
