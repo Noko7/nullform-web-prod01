@@ -1,0 +1,47 @@
+
+body{
+    margin: 0px;
+    overflow-x: hidden; 
+    cursor: wait;
+    /* background-image: url('/BgImages/WhiteNoise.jpg'); */
+    /* background-color: orange; */
+background-color: #D8D6D9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+* {
+  /* overflow: hidden; */
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('/fonts/Pixel.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+
+  @font-face {
+    font-family: 'Aeonik';
+    src: url('/fonts/Aeonik.otf') 
+  }
+
+
+  @font-face{
+    font-family: 'General';
+    src: url('/fonts/General.otf');
+  }
+
+  @font-face {
+    font-family: "naughty";
+    src: url('/fonts/Naughty.otf');
+  }
+
+
+  @font-face {
+    font-family: 'Montreal';
+    src: url('/fonts/Montreal.otf ')
+  }

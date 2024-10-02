@@ -1,0 +1,11 @@
+.typingEffect {
+    font-size: 3rem; 
+    font-weight: bold; 
+    display: inline-block; 
+  }
+  
+  .blink {
+    opacity: 0; 
+    transition: opacity 0.5s; 
+  }
+  
