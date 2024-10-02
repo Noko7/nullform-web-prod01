@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Rounded from '../../common/RoundedButton/index.jsx';
 import { useRef } from 'react';
 import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
-import Magnetic from '../../common/Magnetic/Index';
+import Magnetic from 'src\common\Magnetic\index.jsx';
 
 export default function Index() {
     const container = useRef(null);
