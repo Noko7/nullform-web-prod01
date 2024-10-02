@@ -53,10 +53,15 @@ export default function Home() {
 
       setTimeout(() => {
         setIsLoading(false);
+
+        if(typeof document !== 'undefined' ) {
         document.body.style.cursor = 'default';
+      }
         window.scrollTo(0, 0);
       }, 2000);
-    })();
+    })
+
+    ();
   }, []);
 
   const Scene = dynamic(() => import('../components/Donut/index'), {
